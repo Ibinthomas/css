@@ -1,0 +1,43 @@
+
+        h1{
+            color: aqua;
+            background-color: crimson;
+
+        }
+       
+        #p_tag{
+            color: white;
+           
+        }
+        .a1,h3{
+            color: black;
+        }
+        h3{
+            background-color: lime;
+        }
+        .main1{
+            width: 600px;
+            height: 400px;
+            background-color: brown;
+            position: relative;
+        }
+            
+
+        .sub1{
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            width: 200px;
+            height: 200px;
+            background-color: black;
+        }
+        .sub2{
+            position: absolute;
+            top: 0%;
+            left: 300px;
+            width: 200px;
+            height: 200px;
+            background-color: white;
+        }
+
+      
