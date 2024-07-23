@@ -1,0 +1,51 @@
+h1{
+    text-transform: lowercase;
+    font-family: cursive;
+}
+
+h2{
+    text-transform: capitalize;
+    word-spacing: 10px;
+
+}
+
+h3{
+    text-transform: uppercase;
+    text-shadow: 2PX 2px red;
+    color: blue;
+}
+.p1{
+    font-family: 'Times New Roman', Times, serif ;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-size: 50px;
+
+}
+.p2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+
+}
+.p3{
+     font-family: monospace;
+     font-size: 30px;
+     font-style: normal;
+
+}
+table{
+    width: 50%;
+    height: 200px;
+    border-collapse: collapse;
+}
+
+th{
+    text-align: left;
+}
+td{
+    text-align: center;
+}
+table,th,td{
+    border: 2px solid;
+    vertical-align: bottom;
+}
