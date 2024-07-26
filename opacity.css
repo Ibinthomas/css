@@ -1,0 +1,40 @@
+img{
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1.0;
+}
+div.background {
+    background: url(../pexels-p.jpeg) repeat;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  
+  div.transbox {
+    margin: 30px;
+    background-color: #fbfbfb;
+    border: 1px solid black;
+    opacity: 0.6;
+  }
+  
+  div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000d9;
+}
+
+a:link {
+color: rgb(42, 0, 254);
+}
+
+a:hover {
+color: hotpink;
+}
+  
+a:active {
+    color: blue;
+}
+a.highlight:hover {
+    color: #ff0000;
+    font-size: 22px;
+  } 

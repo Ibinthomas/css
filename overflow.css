@@ -1,0 +1,37 @@
+img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.viss{
+    background-color: rgb(7, 228, 253);
+    width: 300px;
+    height: 65px;
+    border: 1px solid;
+    overflow: visible;  
+
+}
+.hidd{
+    background-color: rgb(217, 6, 245);
+    width: 250px;
+    height: 65px;
+    border: 1px solid black;
+    overflow: hidden;
+
+}
+.scroll{
+    background-color: rgb(10, 182, 59);
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+.auto{
+    background-color: rgb(241, 19, 3);
+    width: 180px;
+    height: 65px;
+    border: 1px solid black;
+    overflow: auto;
+}
