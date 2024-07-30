@@ -1,0 +1,108 @@
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'menu main main main right right'
+      'menu footer footer footer footer footer';
+    gap: 10px;
+    background-color: #091dce;
+    padding: 10px;
+}
+.grid-container div {
+    background-color: rgba(238, 246, 9, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.main1{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  .iteam{
+    background-color: rgba(200, 10, 217, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .colum {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color: #ff00d0;
+    padding: 10px;
+  }
+  .grid-line{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #efeeec;
+    padding: 10px;
+  }
+  .iteam1{
+    grid-row-start: 1;
+    background-color: rgba(255, 255, 255, 0.8);
+    grid-row-end: 3;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .five-time{
+    display: grid;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  .iteam1{
+    grid-column: 1 / span 2;
+    background-color: rgba(0, 0, 0, 0.8);
+    grid-row: 1;
+    padding: 20px;
+    font-size: 30px;
+  }
+  
+  .iteam2{
+    grid-column: 3;
+    background-color: rgba(255, 0, 225, 0.8);
+    grid-row: 1 / span 2;
+    padding: 20px;
+    font-size: 30px;
+  }
+  
+  .iteam5{
+    grid-column: 1 / span 3;
+    background-color: rgba(6, 6, 6, 0.8);
+    grid-row: 3;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-area {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-area > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
