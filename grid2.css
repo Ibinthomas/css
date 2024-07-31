@@ -1,0 +1,83 @@
+.head{
+    grid-area: header;
+    background-color: blue;
+    text-align: center;
+    padding-top: 10px;
+}
+.navigation{
+    grid-area: navigation;
+   ;
+
+}
+.menu{
+    grid-area: menu;
+    background-color:rgb(205, 216, 213);
+
+}
+.img{
+    grid-area: img;
+    background-color:red;
+    background-image: url(../4kwall.jpg);
+}
+.message{
+    grid-area: message;
+    background-color: rgb(247, 203, 9);
+    text-align: center;
+    padding-top: 40px;
+}
+.button1{
+    grid-area: button1;
+    background-color: darkgrey;
+    text-align: center;
+    padding-top: 25px;
+    font-weight: bold;
+   
+}
+.button2{
+    grid-area: button2;
+    background-color: darkgrey;
+    text-align: center;
+    padding-top: 25px;
+    font-weight: bold;
+
+}
+.main1{
+    display: grid;
+    grid-template-areas:
+    'header header header header navigation navigation navigation'
+    'menu menu menu menu img img img'
+    'message message message message img img img'
+    'button1 button1 button2 button2 img img img';
+    grid-template-rows: 38px 372px 100px 65px;
+
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+

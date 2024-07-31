@@ -91,17 +91,18 @@
 
 .grid-area {
   display: grid;
+  grid-template-rows: 100px 200px 100px;
   grid-template-areas:
     'header header header header header header'
     'menu main main main right right'
     'menu footer footer footer footer footer';
   gap: 10px;
-  background-color: #2196F3;
+  background-color: #54d912;
   padding: 10px;
 }
 
 .grid-area > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(107, 0, 0, 0.8);
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
