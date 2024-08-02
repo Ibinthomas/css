@@ -52,6 +52,19 @@
 
 
 }
+@media screen and (max-width:576px){
+  .main1{
+    grid-template-areas:
+    'header header header header' 
+    'navigation navigation navigation navigation'
+    'menu menu menu menu'
+    'img img img img'
+    'message message message message'
+    'button1 button1 button2 button2';
+    grid-template-rows: 75px 65px 200px 165px 65px 45px;
+    
+  }
+}
 ul {
     list-style-type: none;
     margin: 0;
